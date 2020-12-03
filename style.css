@@ -1,0 +1,82 @@
+html,body,div{
+    margin: 0;
+box-sizing: border-box;
+/*
+font-family: "Sawarabi Gothic" ,"Texturina", serif;
+*/
+font-family: "Times New Roman","Meiryo UIs",serif;
+
+color:#777d7d
+
+}
+
+.container{
+    width: 270px;
+    margin: 0 auto;
+}
+
+.update{
+    text-align: center;
+    font-size: 28px;
+    line-height: 38px;
+    border-bottom: 1px dotted #777d7d;
+}
+
+ul.newslist {
+    padding: 0px 0;
+    list-style: none;
+    }
+    
+    ul.newsList li {
+    display: block;
+    margin: 10px 10px;
+    }
+    
+    ul.newsList li:nth-child(-n + 3) {
+    flex-basis: 130px;
+    }
+    
+    ul.newsList li:nth-child(2) {
+    font-size: 12px;
+    padding: 5px 10px;
+    text-align: center;
+    }
+    
+    ul.newsList li:nth-child(3) {
+    flex-basis: auto;
+    }
+    
+    .link{
+        text-decoration: none;
+        color: #777d7d;
+    }
+
+.hituke{
+    font-size: 18px;
+}
+
+.otocafe{
+    text-align: center;
+    margin: 5px 5px;
+    font-size: 12px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.insta{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.youtube{
+    width: 129.15px;
+    height: 29.4px;
+    margin: 10px;
+}
